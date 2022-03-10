@@ -1,0 +1,14 @@
+{
+  "logs": [
+    {
+      "id": "fcdc4221-990a-4828-81a1-a0f01984409e",
+      "date": "2022-03-05",
+      "workout": "Bicep Curl",
+      "sets": 4,
+      "reps": 8,
+      "weight": 80,
+      "time": 10,
+      "notes": "Getting stronger"
+    }
+  ]
+}

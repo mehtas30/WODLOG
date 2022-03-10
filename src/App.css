@@ -1,0 +1,257 @@
+/* --- HEADER --- */
+
+.header-wrapper{
+    background: #950101;
+    padding: 10px;
+    color: #F2E9E4;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.header-title{
+    font-size: 32px;
+    font-weight: 150;
+    margin-bottom: 0px;
+}
+
+.header-subtitle{
+    opacity: 0;
+    font-size: 14px;
+    font-weight: 150;
+    color: white;
+    cursor: pointer;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.header-content{
+    margin-top: 0px;
+}
+
+.header-title-wrapper{
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.header-title-wrapper:hover ~ .header-subtitle{
+    opacity: 1;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-out;
+}
+
+.nav-wrapper{
+    float: right;
+    margin-top: 30px;
+}
+
+.nav-item{
+    display: inline-block;
+    text-decoration: none;
+    color: #F2E9E4;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+#header-item{
+    display: inline-block;
+}
+
+/* ---- WELCOME PAGE ---- */
+
+.welcome-bg{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:100%;
+    text-align: center;
+    z-index: -1;
+    filter: brightness(40%);
+    opacity: 0.7;
+    transition: all 0.5s ease;
+}
+
+.welcome-bg:hover{
+    filter: brightness(75%);
+}
+
+.welcome-container{
+    text-align: center;
+}
+
+.welcome-title{
+    color: #F2E9E4;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+/* ---- LOG PAGE ---- */
+
+.log-wrapper{
+    background-color: #3D0000;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+}
+
+.log-title{
+    color: #F2E9E4;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+
+.log-form{
+    background-color: #950101;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+  
+.date-picker-input{
+    border: none;
+    border-radius: 20px;
+    background-color: #F2E9E4;
+    color: #3D0000;
+    font-size: inherit;
+    cursor: inherit;
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+}
+  
+.date-picker-container{
+    margin-bottom: 20px;
+}
+
+.log-form input{
+    border: none;
+    border-radius: 20px;
+    background-color: #F2E9E4;
+    color: #3D0000;
+    font-size: inherit;
+    cursor: inherit;
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+#log-form-label{
+    color: #F2E9E4;
+}
+
+#log-form-item{
+    display: inline-block;
+    padding-right: 15px;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+#incrementer-component{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.incrementer-wrapper{
+    display: inline-block;
+}
+
+.incrementer-btn{
+    color: #F2E9E4;
+    background-color: #FF0000;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.incrementer-counter{
+    background-color: #F2E9E4;
+    text-align: center;
+    color: #3D0000;
+    padding: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    width: 4em;
+}
+
+.log-form-add{
+    color: #F2E9E4;
+    background-color: #FF0000;
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.log-entries-wrapper{
+    margin-top: 25px;
+}
+
+.logitem-wrapper{
+    text-align: center;
+    align-items: center;
+    background-color: #950101;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 3px;
+    margin-top: 5px;
+}
+
+#logitem-item{
+    display: inline-block;
+    padding: 5px 15px;
+    color: #F2E9E4;
+    background-color: #FF0000;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#logitem-item label{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#logitem-item div{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.logitem-delete{
+    background-color: #3D0000;
+    display: inline-block;
+    padding: 5px 15px;
+    color: #F2E9E4;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+    transform: translateY(-25%);
+}
